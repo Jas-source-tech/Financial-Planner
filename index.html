@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <!--first module - Balance Summary-->
+        <section>
+            <h2>Balance</h2>
+            <p id="balance-text">$0</p>
+        </section>
+        <!-- second module - Add transaction form-->
+        <section>
+            <h2>Add transaction</h2>
+            <input type="text" id="name" placeholder="Name of the expense">
+            <input type="number" id="amount" placeholder="Cost">
+            <button id="add-button">Add transaction</button>
+        </section>
+        <!--third module - Transaction history -->
+        <section>
+            <h2>Transaction history</h2>
+            <ul id="transaction-list"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
